@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Start preflight script"
+echo "End preflight script"
+exit 0

@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Start postflight script"
+echo $SCRIPT_NAME: launching html help
+open "/Library/Input Methods/Yahoo! KeyKey.app/Contents/SharedSupport/InstallerHelp.app"
+
+echo "End postflight script"
+
+exit 0

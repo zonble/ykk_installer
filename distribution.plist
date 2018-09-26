@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>Yahoo! KeyKey</title>
+    <organization>com.yahoo</organization>
+    <domains enable_localSystem="true"/>
+    <options customize="never" require-scripts="true" rootVolumeOnly="true" />
+    <!-- Define documents displayed at various steps -->
+    <license    file="License.rtf"    mime-type="application/rtf" />
+    <!-- List all component packages -->
+    <pkg-ref id="com.yahoo.keykey.installerpackage"
+             version="0"
+             auth="root">YahooKeyKeyApp.pkg</pkg-ref>
+    <!-- List them again here. They can now be organized
+         as a hierarchy if you want. -->
+    <choices-outline>
+        <line choice="com.yahoo.keykey.installerpackage"/>
+    </choices-outline>
+    <!-- Define each choice above -->
+    <choice
+        id="com.yahoo.keykey.installerpackage"
+        visible="false"
+        title="Yahoo! KeyKey"
+        description="Yahoo! KeyKey"
+        start_selected="true">
+      <pkg-ref id="com.yahoo.keykey.installerpackage" onConclusion="RequireRestart"/>
+    </choice>
+</installer-gui-script>
