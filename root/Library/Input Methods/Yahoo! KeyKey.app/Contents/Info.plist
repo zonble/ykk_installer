@@ -71,5 +71,9 @@
 	</array>
 	<key>tsInputMethodIconFileKey</key>
 	<string>Yahoo16.icns</string>
+	<key>TICapsLockLanguageSwitchCapable</key>
+	<true/>
+	<key>TISParticipatesInTouchBar</key>
+	<false/>
 </dict>
 </plist>
