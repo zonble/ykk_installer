@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>InstallerHelp</string>
+	<key>CFBundleIconFile</key>
+	<string>Yahoo</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yahoo.inputmethod.KeyKey.InstallerHelp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
